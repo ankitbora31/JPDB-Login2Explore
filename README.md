@@ -1,4 +1,4 @@
-## Introduction to JsonPowerDB
+# Introduction to JsonPowerDB
     Description
     Benefits of using JsonPowerDB
     Release History (release of your JsonPowerDB related code on Github)
