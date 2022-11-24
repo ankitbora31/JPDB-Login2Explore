@@ -8,7 +8,7 @@
     yourself. What all you need is a basic understanding of HTML, CSS, Bootstrap, and Javascript.
     Note: Using JsonPowerDB is equally Easy and Fast when used with Server Side programming like Java, .NET, Python or PHP etc.
     
-## Benefits of using JsonPowerDB
+## Features of JsonPowerDB
     JsonPowerDB (JPDB) is Next Generation, Creative and Disruptive Multi-mode DBMS_ with many USPs.
 
     - Proprietary algorithm for High Performance CRUD operations. Multiple times faster than popular DBMS.
@@ -23,13 +23,6 @@
     - Standardisation of API development framework makes the development process easy, more readable, and less error prone.
     - Multiple security layers.
     - Nimble, Simple to use, In Memory, Real-time DBMS.
+   
+# Project Infrastructure
 
-Additional you can have:
-
-    Table of contents
-    Illustrations
-    Scope of functionalities
-    Examples of use
-    Project status
-    Sources
-    Other information
