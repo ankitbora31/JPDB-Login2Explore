@@ -16,10 +16,11 @@ and open the template in the editor.
         src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script
         src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="container">
-            <h2>Vertical (basic) form</h2>
+            <h2 align="center">Vertical (basic) form</h2>
             <form id="studentForm" method="post">
                 <div class="form-group">
                     <span><label for="studentId">Student ID:</label> <label id="studentIdMsg">
@@ -37,8 +38,10 @@ and open the template in the editor.
                     <input type="email" class="form-control" id="studentEmail"
                            placeholder="Enter student Email" name="studentEmail">
                 </div>
-                <input type="button" class="btn btn-primary" id="studentSave" value="Save"
+                <input type="button" class="btn btn-save" id="studentSave" value="Save"
                        onclick="saveStudent();">
+                <input type="button" class="btn btn-reset" id="studentReset" value="Reset"
+                       onclick="resetForm();">
             </form>
         </div>
         <script>
@@ -98,7 +101,7 @@ and open the template in the editor.
                 return jsonObj;
             }
             function resetForm() {
-                $("#studentId").val("")
+                $("#studentId").val("");
                 $("#studentName").val("");
                 $("#studentEmail").val("");
                 $("#studentId").focus();
